@@ -1,49 +1,47 @@
 <!DOCTYPE html>
-
-<head><title>Google homepage</title>
-<link rel="stylesheet" href=style.css>
-</head>
+<html lang="en"></html>
+    <head><title>Google homepage</title>
+        <link rel="stylesheet" href=style.css>
+    </head>
 
 <body>
-<nav class="topbar">
-<ul>
-<li><a href="#"></a>About</li>
-<li><a href="#"></a>Store</li>
-</ul>
-<ul>
-<li><a href="#"></a>Gmail</li>
-<li><a href="#"></a>Images</li>
-<li><img id="apps" src="images/apps.png" alt="apps"></li>
-<li><button id="sign-in">Sign in</button></li>
-</ul>
-</nav>
+    <nav class="topbar">
+        <ul>
+            <li><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li><a href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></li>
+        </ul>
+        <ul>
+            <li><a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a></li>
+            <li><a href="https://www.google.co.uk/imghp?hl=en-GB&tab=ri&ogbl">Images</a></li>
+            <li><img id="apps" src="images/apps.png" alt="apps"></li>
+            <li><a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fwebhp&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><button id="sign-in">Sign in</button></a></li>
+        </ul>
+    </nav>
 
-<div id="logo-and-search">
-<img id="logo" src="images/logo.png" alt="logo">
-<form id="searchbox" action="">
-<img id="magnifying-glass" src="images/mag.png">
-<input id="searchinput" type="search">
-</form>
-</div>
+    <div id="logo-and-search">
+        <img id="logo" src="images/logo.png" alt="logo">
+        <form id="searchbox" action="https://google.com/search">
+            <img id="magnifying-glass" src="images/mag.png">
+            <input id="searchinput" type="search" name="q">    
+    </div>
+<!--form overlapps divs so that subit button (search) works for searchinput -->
+    <div id="googlebuttons">
+            <input class="searchbuttons" type="submit" value="Google Search">
+        </form>
+            <input class="searchbuttons" type="submit" value="I'm Feeling Lucky">
+    </div>
 
-<div id="googlebuttons">
-<input class="searchbuttons" type="submit" value="Google Search">
-<input class="searchbuttons" type="submit" value="I'm Feeling Lucky">
-</div>
-
-
-
-<nav class="bottombar">
-    <ul class="bottom-left">
-    <li>Advertsing</li>
-    <li>Business</li>
-    <li>How Search works</li>
-    </ul>
-    <ul class="bottom-right">
-    <li>Privacy</li>
-    <li>Terms</li>
-    <li>Settings</li>
-    </ul>
+    <nav class="bottombar">
+        <ul class="bottom-left">
+            <li>Advertsing</li>
+            <li>Business</li>
+            <li>How Search works</li>
+        </ul>
+        <ul class="bottom-right">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+        </ul>
     </nav>
 
 </body>
